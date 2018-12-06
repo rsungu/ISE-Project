@@ -18,7 +18,7 @@ public class FeitInvoeren {
 	}
 	
 	public void PaginaLaden() {
-		//Label     112
+		//Label
 		JLabel invoerFeitLabel = new JLabel();		
 		invoerFeitLabel.setText("Voer het feit in:");
 		invoerFeitLabel.setBounds(75, 415, 800, 50);

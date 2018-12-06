@@ -7,6 +7,6 @@ public class displayVeld extends JTextPane {
 		this.setBounds(x, y, width, height);
 		this.setEditable(false);
 		this.setBackground(Color.white);
-
+		//Revan homo
 	}
 }

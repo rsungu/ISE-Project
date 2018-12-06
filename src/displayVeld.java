@@ -1,6 +1,5 @@
 import java.awt.Color;
 
-import javax.swing.JTextArea;
 import javax.swing.JTextPane;
 
 public class displayVeld extends JTextPane {
@@ -9,8 +8,6 @@ public class displayVeld extends JTextPane {
 		this.setBounds(x, y, width, height);
 		this.setEditable(false);
 		this.setBackground(Color.white);
-		//this.setContentType("text/html");
-		
 
 	}
 }

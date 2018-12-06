@@ -9,8 +9,6 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyleContext;
 
 public class SegmentInvoeren {
 	private FeitInvoeren feit;

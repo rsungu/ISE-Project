@@ -11,5 +11,3 @@ public class displayVeld extends JTextPane {
 
 	}
 }
-
-

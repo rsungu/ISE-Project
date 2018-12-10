@@ -1,12 +1,12 @@
 import java.awt.Color;
+
 import javax.swing.JTextPane;
 
-public class displayVeld extends JTextPane {
+public class DisplayVeld extends JTextPane {
 	
-	public displayVeld (int x, int y, int width, int height) {
-		this.setBounds(x, y, width, height);
+	public DisplayVeld () {
 		this.setEditable(false);
 		this.setBackground(Color.white);
-		//Revan homo
+		this.setFont(this.getFont().deriveFont(26f));
 	}
 }

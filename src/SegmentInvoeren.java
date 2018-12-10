@@ -16,7 +16,7 @@ public class SegmentInvoeren {
 	private JFrame f;
 	private Interface i;
 	
-	private displayVeld segmentDisplay;
+	private DisplayVeld segmentDisplay;
 	private int SegmentComponentNr, SegmentNummer;
 	private String segmentString;
 	private String Component[], EtOfAtt[], Naam[], Id[];
@@ -47,7 +47,8 @@ public class SegmentInvoeren {
 		SegmentDisplayLabel.setBounds(75, 395, 800, 50);
 		f.add(SegmentDisplayLabel);
 		//Textveld
-		segmentDisplay = new displayVeld (75, 430, 800, 30);
+		segmentDisplay = new DisplayVeld ();
+		segmentDisplay.setBounds(75, 430, 800, 30);
 		segmentDisplay.setText(segmentString);
 		segmentDisplay.setFont(segmentDisplay.getFont().deriveFont(20f));
 		f.add(segmentDisplay);
